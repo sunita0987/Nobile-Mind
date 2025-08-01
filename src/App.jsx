@@ -4,6 +4,8 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import Mission from "./components/Mission";
+import Vision from "./components/Vision";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Router>
         <Navbar/>
         <Header/>
+        <Mission/>
+        <Vision/>
         <Routes>
           <Route path="/"  />
           <Route path="/about"  />

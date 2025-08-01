@@ -41,7 +41,7 @@ const Header = () => {
           </div>
         </div>
 
-        <button className="mt-8 px-6 py-3 bg-gradient-to-l from-[rgb(168,84,233)] to-[#4F91FC] text-white font-semibold rounded-full transition-all">
+        <button className="mt-8 px-6 py-3 bg-gradient-to-l from-[rgb(168,84,233)] to-[#4F91FC] text-white font-semibold rounded-full transition-all cursor-pointer">
           Get Started
         </button>
       </div>
