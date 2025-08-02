@@ -1,6 +1,6 @@
 import React from "react";
 import visionImg from "../assets/images/vision.png";
-import { POINTS } from "../utils/helper";
+import { POINTS_DATA } from "../utils/helper";
 import { CheckCheck } from "lucide-react";
 
 const Vision = () => {
@@ -18,7 +18,7 @@ const Vision = () => {
           </p>
 
           <div className="mt-6 space-y-4">
-            {POINTS.map((point, index) => (
+            {POINTS_DATA.map((point, index) => (
               <div
                 key={index}
                 className="flex items-start gap-3 p-4 bg-white rounded-xl shadow-sm border border-purple-400"

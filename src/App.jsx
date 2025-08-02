@@ -6,29 +6,28 @@ import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Mission from "./components/Mission";
 import Vision from "./components/Vision";
-
+import Choose from "./components/Choose";
+import Company from "./components/Company";
+import Blur from "./components/Blur";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
       <Router>
-        <Navbar/>
-        <Header/>
-        <Mission/>
-        <Vision/>
+        <Navbar />
+        <Header />
+        <Mission />
+        <Vision />
+        <Choose />
+        <Company />
+        <Blur/>
+        <Footer/>
         <Routes>
-          <Route path="/"  />
-          <Route path="/about"  />
-          <Route
-            path="/solutions"
-          
-          />
-          <Route
-            path="/resources"
-          />
-          <Route
-            path="/contact"
-           
-          />
+          <Route path="/" />
+          <Route path="/about" />
+          <Route path="/solutions" />
+          <Route path="/resources" />
+          <Route path="/contact" />
         </Routes>
       </Router>
     </>
