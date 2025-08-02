@@ -5,7 +5,7 @@ import { CheckCheck } from "lucide-react";
 
 const Vision = () => {
   return (
-    <section className="bg-gradient-to-r from-purple-100 to-[#ffffff] py-12 px-4 md:px-8 lg:px-20">
+    <section className="bg-gradient-to-l from-purple-100 to-[#ffffff] py-12 px-4 md:px-8 lg:px-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-12">
         <div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
@@ -23,7 +23,9 @@ const Vision = () => {
                 key={index}
                 className="flex items-start gap-3 p-4 bg-white rounded-xl shadow-sm border border-purple-400"
               >
-                <CheckCheck className="text-purple-600 w-4 h-4" />
+                <div className="p-2 bg-purple-200 rounded-full">
+                  <CheckCheck className="text-purple-600 w-5 h-5" />
+                </div>
                 <p className="text-sm md:text-base text-gray-800">{point}</p>
               </div>
             ))}

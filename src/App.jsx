@@ -10,6 +10,7 @@ import Choose from "./components/Choose";
 import Company from "./components/Company";
 import Blur from "./components/Blur";
 import Footer from "./components/Footer";
+// import Service from "./components/Service";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <Navbar />
         <Header />
         <Mission />
+        {/* <Service/> */}
         <Vision />
         <Choose />
         <Company />
